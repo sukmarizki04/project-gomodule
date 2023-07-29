@@ -1,5 +1,5 @@
 package projectmodule
 
-func Hello() string {
-	return "Sukma"
+func Hello(name string) string {
+	return "Sukma" + name
 }
